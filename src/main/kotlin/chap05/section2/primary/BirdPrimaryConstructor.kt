@@ -7,7 +7,7 @@ class Bird constructor(
     var wing: Int,
     var beak: String,
     var color: String,
-) {
+) { // 프로퍼티는 매개변수 안에 var를 사용해 프로퍼티로서 선언되어 본문에서 생략됨
     fun fly() = println("Fly wing: $wing")
     fun sing(vol: Int) = println("Sing vol: $vol")
 }
